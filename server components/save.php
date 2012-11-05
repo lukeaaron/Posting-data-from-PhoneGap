@@ -1,8 +1,8 @@
 <?php
-$server = "";
-$username = "";
-$password = "";
-$database = "";
+$server = "itsadailythingcom.fatcowmysql.com";
+$username = "usrbluffed";
+$password = "20kowie08";
+$database = "bluffed";
 
 $con = mysql_connect($server, $username, $password) or die ("Could not connect: " . mysql_error());
 
